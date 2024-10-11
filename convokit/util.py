@@ -109,7 +109,7 @@ def download(
     custom_data_dir = data_dir
 
     config = ConvoKitConfig()
-    data_dir = config.data_directory 
+    data_dir = config.data_directory
     data_dir = os.path.expanduser(data_dir)
     # pkg_resources.resource_filename("convokit", "")
     if not os.path.exists(data_dir):
@@ -194,7 +194,7 @@ def download_local(name: str, data_dir: str):
     """
     custom_data_dir = data_dir
     config = ConvoKitConfig()
-    data_dir = config.data_directory 
+    data_dir = config.data_directory
 
     # pkg_resources.resource_filename("convokit", "")
     if not os.path.exists(data_dir):
