@@ -56,6 +56,7 @@ setup(
         "pymongo>=4.0",
         "pyyaml>=5.4.1",
         "dnspython>=1.16.0",
+        "thinc>=8.3.0,<8.4.0",
     ],
     extras_require={
         "craft": ["torch>=0.12"],
